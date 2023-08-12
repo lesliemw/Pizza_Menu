@@ -11,7 +11,7 @@ function Footer() {
     <footer className="footer">
       It is {currentTime} and we are
       {currentHour >= 12 && currentHour <= 22
-        ? " open."
+        ? " open until 11pm."
         : " closed. Our opening hours are 12pm to 11pm each day."}
     </footer>
   );
