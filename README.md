@@ -9,5 +9,9 @@ If not, it will display the time and say we are closed and include the opeing ho
 
 <img width="1130" alt="Screenshot 2023-08-12 at 20 01 17" src="https://github.com/lesliemw/Pizza_Menu/assets/114259884/07e5da76-877d-48b1-ac16-575b7f27c2a5">
 
-**Soon to be added, an 'order now' button that uses {useState}
+**Updated:
 
+Now contains further detail, and functionality. I have included several ternary operators to change the appearance based on conditions.
+Sold-out goods now appear grey with the price showing SOLD OUT, and I have also added an order button.
+
+<img width="1130" alt="Screenshot 2023-08-12 at 23 03 31" src="https://github.com/lesliemw/Pizza_Menu/assets/114259884/cdb171c5-9447-496b-81b2-e467a08af0f6">
