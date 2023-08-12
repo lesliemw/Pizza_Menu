@@ -9,10 +9,15 @@ function Footer() {
 
   return (
     <footer className="footer">
-      It is {currentTime} and we are
-      {currentHour >= 12 && currentHour <= 22
-        ? " open until 11pm."
-        : " closed. Our opening hours are 12pm to 11pm each day."}
+      <div className="order">
+        <div>
+          It is {currentTime} and we are
+          {currentHour >= 12 && currentHour < 22
+            ? " open until 22:00."
+            : " closed. Our opening hours are 12:00 to 22:00 each day."}
+        </div>
+        <button className="btn">Order</button>
+      </div>
     </footer>
   );
 }
